@@ -1,0 +1,69 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c; /* Fundo preto elegante */
+    color: #f5f5f5; /* Cor de texto mais clara */
+}
+
+body form {
+    max-width: 400px;
+    padding: 30px;
+    border: 1px solid #444444;
+    border-radius: 15px;
+    background-color: #282828; /* Fundo de formulário escuro */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Sombra para um toque cinematográfico */
+}
+
+body form .form_header {
+    margin-bottom: 15px;
+    color: #FFD700; /* Dourado para título */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+body form .form_header svg {
+    width: 45px;
+    height: auto;
+    color: #ff3700; /* Vermelho vibrante */
+}
+
+/* Estilos para campos de texto e senha */
+body form input[type="text"],
+body form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #555555; /* Contorno cinza suave */
+    border-radius: 8px;
+    background-color: #2d2d2d; /* Cinza escuro para o fundo */
+    color: #FFD700; /* Texto dourado */
+}
+
+/* Cor de preenchimento (placeholder) dourada */
+body form input[type="text"]::placeholder,
+body form input[type="password"]::placeholder {
+    color: #FFD700; /* Dourado para o placeholder */
+    opacity: 0.8; /* Opacidade para suavizar */
+}
+
+/* Estilos para o botão de envio */
+body form input[type="submit"] {
+    display: block; /* Centraliza o botão horizontalmente */
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto 0 auto; /* Margin para centralizar */
+    background-color: #ff3700; /* Botão de destaque em vermelho */
+    color: #1c1c1c;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body form input[type="submit"]:hover {
+    background-color: #ff6347; /* Tom mais claro no hover */
+}
